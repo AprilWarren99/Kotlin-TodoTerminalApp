@@ -1,0 +1,21 @@
+id,task,priority,status
+1,Complete project proposal,High,InProgress
+2,Buy groceries,Medium,NotStarted
+3,Call dentist for appointment,Low,Done
+4,Finish quarterly report,High,NotStarted
+5,Walk the dog,Medium,InProgress
+6,Pay electricity bill,Low,NotStarted
+7,Schedule team meeting,High,Done
+8,Read new book,Medium,NotStarted
+9,Clean the garage,Low,InProgress
+10,Update resume,High,NotStarted
+11,Plan weekend trip,Medium,Done
+12,Reply to client emails,High,InProgress
+13,Organize desk,Low,NotStarted
+14,Prepare presentation slides,High,Done
+15,Water the plants,Medium,NotStarted
+16,Research new software tools,Low,InProgress
+17,Attend online workshop,High,NotStarted
+18,Cancel subscription services,Medium,Done
+19,Write blog post,Low,InProgress
+20,Review quarterly results,High,NotStarted
