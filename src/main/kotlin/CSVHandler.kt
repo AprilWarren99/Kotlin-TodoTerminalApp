@@ -4,6 +4,10 @@ import org.jetbrains.kotlinx.dataframe.DataFrame
 import org.jetbrains.kotlinx.dataframe.api.rows
 import org.jetbrains.kotlinx.dataframe.io.readCsv
 
+import org.terminaltodoapp.DataClasses.TodoItem
+import org.terminaltodoapp.EnumClasses.TaskPriority
+import org.terminaltodoapp.EnumClasses.TaskStatus
+
 //It would be nice if this also took a file structure type for handling other csv formats
 class CSVHandler (val filePath: String){
     var fileData: DataFrame<*>? = null

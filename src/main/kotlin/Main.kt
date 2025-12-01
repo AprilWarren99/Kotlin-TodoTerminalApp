@@ -1,13 +1,5 @@
 package org.terminaltodoapp
 
-enum class TaskPriority{ Low, Medium, High }
-enum class TaskStatus{ NotStarted, InProgress, Done }
-
-data class TodoItem(val id: Int,
-                    val task: String,
-                    val taskPriority: TaskPriority,
-                    val taskStatus: TaskStatus)
-
 fun printMenu(){
     print("----------\n" +
         "[1] Print all tasks\n" +
