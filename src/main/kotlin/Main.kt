@@ -1,4 +1,3 @@
-package org.terminaltodoapp
 
 fun printMenu(){
     print("----------\n" +

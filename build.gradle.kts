@@ -1,5 +1,6 @@
 plugins {
     kotlin("jvm") version "2.2.20"
+    application
 }
 
 group = "org.terminaltodoapp"
@@ -19,5 +20,8 @@ tasks.test {
     useJUnitPlatform()
 }
 kotlin {
-    jvmToolchain(24)
+    jvmToolchain(21)
+}
+application {
+    mainClass.set("MainKt")
 }

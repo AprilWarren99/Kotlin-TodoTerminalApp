@@ -1,9 +1,10 @@
-package org.terminaltodoapp.DataClasses
+package DataClasses
 
-import org.terminaltodoapp.EnumClasses.TaskPriority
-import org.terminaltodoapp.EnumClasses.TaskStatus
+import EnumClasses.TaskPriority
+import EnumClasses.TaskStatus
 
 data class TodoItem(val id: Int,
                     val task: String,
                     val taskPriority: TaskPriority,
-                    val taskStatus: TaskStatus)
+                    val taskStatus: TaskStatus
+)

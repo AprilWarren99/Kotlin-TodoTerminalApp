@@ -1,3 +1,3 @@
-package org.terminaltodoapp.EnumClasses
+package EnumClasses
 
 enum class TaskStatus{ NotStarted, InProgress, Done }
